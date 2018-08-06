@@ -2,6 +2,12 @@
 <p align="center"><img height="200" src="https://img.jinse.com/139170_image3.png"></p>
 <p align="center"><h1>Ethereum@Laravel 開發範例 - 簡單投票機制</h1></p><br /><br />
 
+## 0. 安裝必備 node 套件
+
+- 在專案根目錄下執行:<br />
+npm install<br /><br />
+
+
 ## 1. 安裝必備 composer 套件
 
 - 在專案根目錄下執行:<br />
