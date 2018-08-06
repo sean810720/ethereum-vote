@@ -43,7 +43,7 @@ cd truffle<br />
 truffle compile<br />
 truffle migrate --reset<br /><br />
 
-## 5. 修改 EthExampleController.php
+## 5. 修改 VoteController.php
 
 - 調整 app/Http/Controllers/VoteController.php 中的「呼叫者錢包位址」與「被呼叫的合約或錢包位址」<br /><br />
 
