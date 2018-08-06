@@ -30,25 +30,25 @@ https://truffleframework.com/ganache
 http://127.0.0.1:8545<br /><br />
 
 
-## 3. 安裝 Truffle 環境
+## 4. 安裝 Truffle 環境
 
 - 執行以下指令:<br />
 npm install -g truffle<br /><br />
 
 
-## 4. 編譯智慧合約並配置上私鏈
+## 5. 編譯智慧合約並配置上私鏈
 
 - 在 Laravel 專案根目錄下執行:<br />
 cd truffle<br />
 truffle compile<br />
 truffle migrate --reset<br /><br />
 
-## 5. 修改 VoteController.php
+## 6. 修改 VoteController.php
 
 - 調整 app/Http/Controllers/VoteController.php 中的「呼叫者錢包位址」與「被呼叫的合約或錢包位址」<br /><br />
 
 
-## 6. 測試看看
+## 7. 測試看看
 
 - 在 Laravel 專案根目錄下執行:<br />
 php artisan serve
