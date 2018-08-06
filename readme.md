@@ -1,6 +1,6 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 <p align="center"><img height="200" src="https://img.jinse.com/139170_image3.png"></p>
-<p align="center"><h1>Ethereum@Laravel 開發範例</h1></p><br /><br />
+<p align="center"><h1>Ethereum@Laravel 開發範例 - 簡單投票機制</h1></p><br /><br />
 
 ## 1. 安裝必備 composer 套件
 
@@ -45,21 +45,16 @@ truffle migrate --reset<br /><br />
 
 ## 5. 修改 EthExampleController.php
 
-- 調整 app/Http/Controllers/EthExampleController.php 中的「呼叫者錢包位址」與「被呼叫的合約或錢包位址」<br /><br />
+- 調整 app/Http/Controllers/VoteController.php 中的「呼叫者錢包位址」與「被呼叫的合約或錢包位址」<br /><br />
 
 
-## 6. 測試看看第一筆交易
+## 6. 測試看看
 
 - 在 Laravel 專案根目錄下執行:<br />
 php artisan serve
 
 - 執行測試連結:<br />
-查詢鏈上帳號錢包餘額:  http://127.0.0.1:8000/account_balance<br />
-送錢給某帳戶:         http://127.0.0.1:8000/send_money<br />
-呼叫合約並建立交易:    http://127.0.0.1:8000/send_contract<br />
-呼叫合約不建立交易:    http://127.0.0.1:8000/call_contract<br /><br />
-
-有出現 JSON 結果表示交易呼叫成功<br /><br />
+http://127.0.0.1:8000/<br /><br />
 
 
 ## 相關連結
