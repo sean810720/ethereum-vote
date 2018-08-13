@@ -45,7 +45,7 @@ class VoteController extends Controller
         $result['msg'] = Ethereum::transaction(
 
             // 呼叫者錢包位址
-            '0xAc7833EF2E9e2a342fB1864C2d86e92E07F8E515',
+            '0x54254d3FAF10F568F319fD505C02C3EF905E5bb5',
 
             // 被呼叫的合約或錢包位址
             '0x65be2c853331ef412f079576176b3deb5a20cbf9',
@@ -73,7 +73,7 @@ class VoteController extends Controller
             Ethereum::call(
 
                 // 呼叫者錢包位址
-                '0xAc7833EF2E9e2a342fB1864C2d86e92E07F8E515',
+                '0x54254d3FAF10F568F319fD505C02C3EF905E5bb5',
 
                 // 被呼叫的合約或錢包位址
                 '0x65be2c853331ef412f079576176b3deb5a20cbf9',
